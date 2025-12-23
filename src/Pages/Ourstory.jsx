@@ -113,28 +113,36 @@ const OurStory = () => {
           <p className="text-[21px] font-medium relative -top-42.5 left-5">Beginning</p>
           <span className="block text-[12px] leading-5.75 font-medium text-[#4E4E4E]
           relative -top-62.5 ml-37.5 lg:ml-47.5 pr-4 text-justify lg:-left-3.75">
-            It all started with a simple thought — why has real, healthy food become rare?
+           It all started with a simple thought — why has real, healthy food become rare? Shelves full of chemicals made us question what we were truly consuming.
           </span>
         </div>
 
         {/* CARD 2 */}
-        <div className="border border-[#768653] rounded-[20px] h-87.5 w-full max-w-103.25 mt-20 lg:mt-25 relative"
-          data-aos="zoom-in" data-aos-delay="150">
-          <div className="relative">
-            <img src={l2} alt="" className="relative -top-22.5 rotate-[-60deg] w-full lg:w-100 h-72.5" />
-            <img src={l2} alt="" className="absolute -top-35 -left-3 rotate-[-60deg] w-full lg:w-100 h-72.5" />
-          </div>
-          <h1 className="text-[60px] lg:text-[70px] font-semibold relative -top-37.5 left-5">The</h1>
-          <p className="text-[21px] font-medium relative -top-42.5 left-5">Mission</p>
-        </div>
+<div className="border border-[#768653] rounded-[20px] h-87.5 w-full max-w-103.25 mt-20 lg:mt-25 relative"
+  data-aos="zoom-in" data-aos-delay="150">
+  <div className="relative">
+    <img src={l2} alt="" className="relative -top-22.5 rotate-[-60deg] w-full lg:w-100 h-72.5" />
+    <img src={l2} alt="" className="absolute -top-35 -left-3 rotate-[-60deg] w-full lg:w-100 h-72.5" />
+  </div>
+  <h1 className="text-[60px] lg:text-[70px] font-semibold relative -top-37.5 left-5">The</h1>
+  <p className="text-[21px] font-medium relative -top-42.5 left-5">Mission</p>
+  <span className="block text-[12px] leading-5.75 font-medium text-[#4E4E4E]
+    relative -top-60 ml-37.5 lg:ml-47.5 pr-4 text-justify lg:-left-3.75">
+    We turned to our roots. To farmers. To traditional grains. To methods that respect the soil and nourish the body.
+  </span>
+</div>
 
-        {/* CARD 3 */}
-        <div className="border border-[#768653] rounded-[20px] h-100 w-full max-w-103.25 relative mt-20 lg:mt-0"
-          data-aos="zoom-in" data-aos-delay="300">
-          <img src={three} alt="" className="relative left-10 lg:left-17.5 -top-25" />
-          <h1 className="text-[60px] lg:text-[70px] font-semibold relative -top-37.5 left-5">The</h1>
-          <p className="text-[21px] font-medium relative -top-42.5 left-5">Craft</p>
-        </div>
+{/* CARD 3 */}
+<div className="border border-[#768653] rounded-[20px] h-100 w-full max-w-103.25 relative mt-20 lg:mt-0"
+  data-aos="zoom-in" data-aos-delay="300">
+  <img src={three} alt="" className="relative left-10 lg:left-17.5 -top-25" />
+  <h1 className="text-[60px] lg:text-[70px] font-semibold relative -top-37.5 left-5">The</h1>
+  <p className="text-[21px] font-medium relative -top-42.5 left-5">Craft</p>
+  <span className="block text-[12px] leading-5.75 font-medium text-[#4E4E4E]
+    relative -top-60 ml-37.5 lg:ml-47.5 pr-4 text-justify lg:-left-3.75">
+    Every batch is made with attention, patience, and purpose. We don’t rush. We don’t compromise. We create food the way it was meant to be.
+  </span>
+</div>
 
       </div>
     </div>
