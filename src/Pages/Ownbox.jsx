@@ -1,5 +1,5 @@
 /* IMPORTS */
-import leaf from "../Images/leaf.svg fill.png";
+import leaf from "../Images/leaf-icon.png";
 import ownVideo from "../Images/grok-video-a21fed34-23fb-4aa9-a10e-3473efb1318f.mp4";
 
 const Ownbox = () => {

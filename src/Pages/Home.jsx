@@ -3,7 +3,7 @@ import Navbar from "../components/navbar";
 
 /* ===== IMAGE IMPORTS ===== */
 import heroGif from "../Images/wellnessgifhome.gif";
-import leaf from "../Images/leaf.svg fill.png";
+import leaf from "../Images/leaf-icon.png";
 import shopLeaf from "../Images/shopleaf.png";
 import ourImg from "../Images/ourimg.png";
 

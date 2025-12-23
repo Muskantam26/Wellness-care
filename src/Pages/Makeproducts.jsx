@@ -1,11 +1,11 @@
 import React from "react";
 
 /* ===== IMAGE IMPORTS ===== */
-import leaf from "../Images/leaf.svg fill.png";
+import leaf from "../Images/leaf-icon.png";
 import pImg from "../Images/p.png";
 import p2Img from "../Images/p2.png";
 import prImg from "../Images/pr.png";
-import logo from "../Images/Wellness logo.jpg";
+import logo from "../Images/Wellnesslogo.jpg";
 
 const Makeproducts = () => {
   return (

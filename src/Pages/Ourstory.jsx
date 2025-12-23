@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 /*  IMAGE IMPORTS */
-import leaf from "../Images/leaf.svg fill.png";
+import leaf from "../Images/leaf-icon.png";
 import l2 from "../Images/l2.png";
 import ourimg from "../Images/ourimg.png";
 import three from "../Images/three.png";
