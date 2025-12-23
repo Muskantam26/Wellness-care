@@ -15,7 +15,7 @@ function Home() {
       >
         {/* GIF as background */}
         <img
-          src="/wellnessgifhome.gif"
+          src="https://firebasestorage.googleapis.com/v0/b/scet-gellary.appspot.com/o/wellnessgifhome.gif?alt=media"
           alt="Hero GIF"
           className="absolute top-0 left-0 w-full h-full object-cover rounded-[10px] z-0"
         />
