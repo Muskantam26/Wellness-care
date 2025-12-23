@@ -13,19 +13,23 @@ function Home() {
         className="min-h-[70vh] w-full rounded-[10px] relative flex flex-col text-white 
         shadow-[inset_-8px_-8px_18px_2px_#10101030,inset_8px_8px_17px_1px_#10101030]"
       >
-        {/* GIF as background */}
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/scet-gellary.appspot.com/o/wellnessgifhome.gif?alt=media"
-          alt="Hero GIF"
-          className="absolute top-0 left-0 w-full h-full object-cover rounded-[10px] z-0"
-        />
+       <video
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="absolute top-0 left-0 w-full h-full object-cover z-0"
+>
+  <source src="/wellnessgif.mp4" type="video/mp4" />
+</video>
+
         
 {/* Mobile GIF */}
-<img
+{/* <img
   src="https://firebasestorage.googleapis.com/v0/b/scet-gellary.appspot.com/o/ezgif.com-crop.gif?alt=media"
   alt="Hero GIF Mobile"
   className="block md:hidden absolute top-0 left-0 w-full h-full object-cover rounded-[10px] z-0"
-/>
+/> */}
  <Navbar />
         {/* Content wrapper above GIF */}
         <div className="relative z-10 mt-20 md:mt-50 mb-auto mx-6 md:ml-25 md:w-162.5 max-w-full">
