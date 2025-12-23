@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../components/navbar";
 
 /* ===== IMAGE IMPORTS ===== */
-
 import leaf from "../Images/leaf-icon.png";
 import shopLeaf from "../Images/shopleaf.png";
 import ourImg from "../Images/ourimg.png";
@@ -11,15 +10,20 @@ function Home() {
   return (
     <div className="p-2.5">
       <div
-        className="min-h-[80vh] w-full rounded-[10px] bg-cover bg-center relative flex flex-col text-white 
+        className="min-h-[70vh] w-full rounded-[10px] relative flex flex-col text-white 
         shadow-[inset_-8px_-8px_18px_2px_#10101030,inset_8px_8px_17px_1px_#10101030]"
-        style={{ backgroundImage:`url(/wellnessgifhome.gif)` }}
       >
-        
-        <Navbar />
+        {/* GIF as background */}
+        <img
+          src="/wellnessgifhome.gif"
+          alt="Hero GIF"
+          className="absolute top-0 left-0 w-full h-full object-cover rounded-[10px] z-0"
+        />
+ <Navbar />
+        {/* Content wrapper above GIF */}
+        <div className="relative z-10 mt-20 md:mt-50 mb-auto mx-6 md:ml-25 md:w-162.5 max-w-full">
+         
 
-        <div className="mt-20 md:mt-50 mb-auto mx-6 md:ml-25 md:w-162.5 max-w-full">
-          
           <p className="flex items-center text-[14px] md:text-[16px] mb-3.75 text-white">
             <img
               src={leaf}
@@ -46,7 +50,6 @@ function Home() {
 
           {/* ===== BUTTONS ===== */}
           <div className="flex flex-row gap-6 pb-10">
-            
             {/* SHOP */}
             <div className="relative inline-flex items-center group w-fit">
               <img
@@ -78,7 +81,6 @@ function Home() {
                 </p>
               </button>
             </div>
-
           </div>
         </div>
       </div>
