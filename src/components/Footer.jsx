@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 // Import images
 import Logo from "../Images/well.jpg"
-import AppStore from "../Images/AppStore.jpg";
+import Appstore from "../Images/AppStore.jpg";
 import GooglePlay from "../Images/7844144b561e00edee01e736c431c7d8af4eb2f0.jpg";
 import Payments from "../Images/abfde2069df20d065d424eb84b76f8b62e604c51.png";
 
@@ -68,7 +68,7 @@ const Footer = () => {
             <h3 className="text-[18px] font-semibold text-[#1a1a1a] mb-5">Install App</h3>
             <p className="text-[10px] text-[#253D4E] mb-4">From App Store or Google Play</p>
             <div className="flex gap-3 mb-8">
-              <img src={AppStore} className="w-23.75 h-auto cursor-pointer" alt="App Store" />
+              <img src={Appstore} className="w-23.75 h-auto cursor-pointer" alt="App Store" />
               <img src={GooglePlay} className="w-23.75 h-auto cursor-pointer" alt="Google Play" />
             </div>
             <p className="text-[14px] font-black text-[#253D4E] mb-3 font-['Lato']">Secured Payment Gateways</p>
