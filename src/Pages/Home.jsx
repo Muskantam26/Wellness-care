@@ -19,6 +19,13 @@ function Home() {
           alt="Hero GIF"
           className="absolute top-0 left-0 w-full h-full object-cover rounded-[10px] z-0"
         />
+        
+{/* Mobile GIF */}
+<img
+  src="https://firebasestorage.googleapis.com/v0/b/scet-gellary.appspot.com/o/ezgif.com-crop.gif?alt=media"
+  alt="Hero GIF Mobile"
+  className="block md:hidden absolute top-0 left-0 w-full h-full object-cover rounded-[10px] z-0"
+/>
  <Navbar />
         {/* Content wrapper above GIF */}
         <div className="relative z-10 mt-20 md:mt-50 mb-auto mx-6 md:ml-25 md:w-162.5 max-w-full">
